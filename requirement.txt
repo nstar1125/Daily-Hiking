@@ -1,0 +1,6 @@
+numpy
+mplfinance
+yfinance
+matplotlib
+fpdf
+schedule

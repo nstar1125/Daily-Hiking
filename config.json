@@ -1,0 +1,29 @@
+{
+    "email": {
+        "sender": "your@gmail.com",
+        "receiver": "your@gmail.com",
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "username": "your@gmail.com",
+        "password": "your_gmail_second_password"
+    },
+    "schedule": {
+        "time": "09:00"
+    },
+    "data": {
+        "stocks": [
+            "AAPL",
+            "NVDA",
+            "MSFT",
+            "QQQ"
+        ],
+        "markets": [
+            "^TNX",
+            "^GSPC",
+            "^IXIC",
+            "^DJI",
+            "^SOX"
+        ],
+        "reference_index": "^GSPC"
+    }
+}
