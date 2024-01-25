@@ -32,8 +32,8 @@ def run_client():
             elif int(opt)==2:
                 print("사용할 Gmail 계정을 입력하세요.")
                 account = input("> ")
-                if not account.endswith('@gmail'):
-                    account += '@gmail'
+                if not account.endswith('@gmail.com'):
+                    account += '@gmail.com'
                 print("Gmail 계정의 2차 패스워드를 입력하세요.")
                 pwd = input("> ")
                 print("전송 받을 이메일 주소를 입력하세요.")
